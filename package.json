@@ -1,0 +1,15 @@
+{
+  "name": "liveeditorr",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm:start-renderer\" \"npm:start-electron\"",
+    "start-renderer": "cd renderer && npm run dev",
+    "start-electron": "wait-on http://localhost:5173 && electron ."
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "electron": "^29.0.0",
+    "wait-on": "^7.0.1"
+  }
+}

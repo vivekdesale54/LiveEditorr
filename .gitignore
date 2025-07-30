@@ -1,0 +1,54 @@
+# Node modules
+node_modules
+
+# Build outputs
+dist
+out
+build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# Vite cache
+.vite/
+
+# Optional npm cache
+.cache/
+
+# Mac system files
+*.DS_Store
+
+# Electron specific
+*.asar
+electron-builder-cache/
+release/
+
+# React dev tools
+__REACT_DEVTOOLS_GLOBAL_HOOK__
+
+# Misc
+*.log
+*.tsbuildinfo
+
+# Optional lockfiles (depending on what you use)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
