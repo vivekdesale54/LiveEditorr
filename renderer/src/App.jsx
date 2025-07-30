@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css'; // Import Tailwind CSS styles
 
 export default function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '4rem' }}>
-      <h1>Hello from React + Electron + Vite!</h1>
+    <div>
+      <div className="flex flex-row items-center justify-center min-h-screen"></div>
     </div>
   );
 }
