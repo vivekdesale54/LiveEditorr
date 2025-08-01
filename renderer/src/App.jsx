@@ -1,10 +1,18 @@
-import React from 'react';
-import './style.css'; // Import Tailwind CSS styles
+import './index.css'; // Assuming you have styles for the button
+import Sidebar from './components/Sidebar';
+import Center from './components/Center';
+import Preview from './components/Preview';
+import Navbar from './components/navbar';
 
 export default function App() {
   return (
     <div>
-      <div className="flex flex-row items-center justify-center min-h-screen"></div>
+      <Navbar />
+      <div className="flex h-screen w-screen overflow-hidden font-sans">
+        <Sidebar />
+        <Center />
+        <Preview />
+      </div>
     </div>
   );
 }
